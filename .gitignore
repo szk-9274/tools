@@ -1,0 +1,73 @@
+# ======================
+# Python virtual env
+# ======================
+venv/
+.venv/
+ENV/
+env/
+Include/
+Lib/
+Scripts/
+bin/
+# ======================
+# Python cache
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ======================
+# Python build artifacts
+# ======================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ======================
+# Jupyter / IPython
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# OS specific
+# ======================
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS (just in case)
+.DS_Store
+
+# ======================
+# Logs / temp files
+# ======================
+*.log
+*.tmp
+
+# ======================
+# Output files (Kindle screenshots etc.)
+# ======================
+output/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# ======================
+# PowerShell temp
+# ======================
+*.ps1.bak
+
+# ======================
+# Editor / IDE
+# ======================
+.vscode/
+.idea/
+*.swp
+
+# ======================
+# Environment variables / secrets
+# ======================
+.env
+.env.*
