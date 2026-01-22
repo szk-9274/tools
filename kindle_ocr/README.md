@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -File kindle_auto_capture.ps1
